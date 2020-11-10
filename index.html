@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+  </head>
+  <body style="display: flex; justify-content: center; flex-flow: column">
+    <div style="display: flex; justify-content: center; margin-bottom: 50px;">
+      <h1>Teste 2</h1>
+    </div>
+    <div class="content">
+      <table class="table-1">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>NOME</th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+        </tbody>
+      </table>
+    </div>
+    <div id="count-item" class="div-data-table">
+      <div style="display:flex; justify-content: center;">
+        <h2>5 úlltimos itens distintos</h2>
+      </div>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>NOME</th>
+          </tr>
+        </thead>
+        <tbody id="distint-tbody">
+        </tbody>
+      </table>
+    </div>
+    <div id="count-item" class="div-data-table">
+      <div style="display:flex; justify-content: center;">
+        <h2 >Itens que mais apareceram</h2>
+      </div>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>NOME</th>
+            <th>VEZES QUE APARECEU</th>
+          </tr>
+        </thead>
+        <tbody id="count-tbody">
+        </tbody>
+      </table>
+    </div>
+  </body>
+  </html>

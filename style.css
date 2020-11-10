@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  border-top: 1px solid #ddd;
+  padding: 8px 10px;
+  box-sizing: content-box;
+}
+
+.data-table {
+  width: 680px;
+  margin: 0 auto;
+  clear: both;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-bottom: 1px solid #111;
+  box-sizing: content-box;
+}
+
+.div-data-table {
+  position: relative;
+  clear: both;
+  zoom: 1;
+}
